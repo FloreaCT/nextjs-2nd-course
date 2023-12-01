@@ -14,19 +14,19 @@ const Home = () => {
     <section>
       <h1> Use Router</h1>
       <Link
-        className="border px-2 py-4 rounded-md bg-gray-200 hover:bg-gray-300"
+        className="border m-4 px-2 py-4 rounded-md bg-gray-200 hover:bg-gray-300"
         href="/projects"
       >
         Go to Projects Page
       </Link>
       <button
-        className="border px-2 py-4 rounded-md bg-gray-200 hover:bg-gray-300"
+        className="border m-4 px-2 py-4 rounded-md bg-gray-200 hover:bg-gray-300"
         onClick={() => handelClick("about")}
       >
         Go to About Page
       </button>
       <button
-        className="border px-2 py-4 rounded-md bg-gray-200 hover:bg-gray-300"
+        className="border m-4 px-2 py-4 rounded-md bg-gray-200 hover:bg-gray-300"
         onClick={() => handelClick("login")}
       >
         Go to Login Page
